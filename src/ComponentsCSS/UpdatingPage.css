@@ -1,0 +1,36 @@
+.Update {
+  background-color: #0e2033;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.TaskCardUpdate {
+  display: flex;
+  align-items: center;
+}
+.TaskCardUpdate label {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+.input {
+  display: block;
+  width: 75vw;
+  border: none;
+  height: 50px;
+  margin-bottom: 15px;
+  background-color: rgba(22, 124, 138, 0.986);
+  color: white;
+}
+.UpadteSubmit {
+  width: 150px;
+  height: 40px;
+  padding: 1.2vh;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.NoBtn {
+  border: none;
+  width: 45px;
+  background-color: #0e2033;
+}

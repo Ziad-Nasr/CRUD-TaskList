@@ -1,0 +1,110 @@
+.ItemsBodyvh {
+  background-color: #0e2033;
+  height: 100vh;
+}
+.ItemsBodyPerc {
+  background-color: #0e2033;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .ItemsBodyPerc {
+    background-color: #0e2033;
+    height: 100%;
+  }
+  .ItemsBodyvh {
+    background-color: #0e2033;
+    height: 100%;
+  }
+}
+.ItemsBodyvh::after {
+  position: fixed;
+  background-color: #0e2033;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.ItemTable {
+  transition: 2s;
+}
+.additem {
+  background-color: #f5ff65;
+  display: flex;
+  /* height: 50px; */
+  width: 120px;
+  justify-content: center;
+  text-decoration: none;
+  padding: 1vh;
+  margin: auto;
+  border-radius: 15px;
+  color: black;
+}
+.Loading {
+  background-color: black;
+  opacity: 80%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Done {
+  display: none;
+}
+.LoadingSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Boxes {
+  margin-top: 25px !important;
+  padding: 10px;
+  border-radius: 35px !important;
+  background-color: #f5ff65 !important;
+  color: #0e2033;
+  transition: 3s;
+  min-height: 225px;
+}
+.Expired {
+  margin-top: 25px !important;
+  padding: 10px;
+  border-radius: 35px !important;
+  background-color: #ff6a65 !important;
+  color: #0e2033;
+  transition: 2s;
+  min-height: 225px;
+}
+.Deadliner {
+  text-decoration: double;
+}
+.AddBtn {
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.Test {
+  background-color: #0e2033;
+}
+.Icons {
+  display: flex;
+  justify-content: space-between;
+}
+.RemoveIcon {
+  width: 30px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.RemoveIconIcon {
+  width: 30px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.UpdateIcon {
+  width: 30px;
+  margin-top: 2px;
+  margin-right: 3px;
+}
+.ScheduleTable {
+  border: 1px solid black;
+}
